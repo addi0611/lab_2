@@ -8,7 +8,7 @@ echo "Enter a regex: "
 read reg1
 echo "Enter a file name"
 read fname1
-grep reg1 fname1
+grep $reg1 $fname1
 grep -c '[0-9]\{3\}\-[0-9]\{3\}\-[0-9]\{4\}' regex_practice.txt
 grep -c '^[a-zA-Z0-9]\+@[a-zA-Z0-9]\+\.[a-z]\{2,\}' regex_practice.txt
 grep -o '303-[0-9]\{3\}-[0-9]\{4\}' regex_practice.txt
